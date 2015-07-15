@@ -1,0 +1,16 @@
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.0//EN"
+        "http://google-web-toolkit.googlecode.com/svn/releases/2.0/distro-source/core/src/gwt-module.dtd">
+<module rename-to="Taxulator">
+
+    <!-- Inherit the core Web Toolkit stuff.                  -->
+    <inherits name='com.google.gwt.user.User'/>
+    <inherits name='ch.websoft.taxulator.Shared'/>
+
+    <!-- Specify the app entry point class.                   -->
+    <entry-point class='ch.websoft.taxulator.web.client.Taxulator'/>
+
+
+    <!-- Specify the app servlets.                   -->
+    <servlet path='/TaxulatorService' class='ch.websoft.taxulator.web.server.TaxulatorServiceImpl'/>
+
+</module>

@@ -18,6 +18,6 @@ GENERATED_FILES_DIR = ${SRCROOT}/Generated;
 HEADER_SEARCH_PATHS = $(inherited) "${J2OBJC_HOME}/include" "${GENERATED_FILES_DIR}";
 
 // In your own project, change this to your actual path that contains java code.
-JAVA_SOURCE_PATH = ${SRCROOT}/../java;
+JAVA_SOURCE_PATH = ${SRCROOT}/../java/src;
 
 CLANG_ENABLE_OBJC_ARC = NO

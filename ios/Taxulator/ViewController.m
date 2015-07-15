@@ -11,7 +11,10 @@
   [super viewDidLoad];
   // Do any additional setup after loading the view, typically from a nib.
 
-  int value = OrgJ2objcSampleSharedSampleClass_incrementWithInt_(2);
+    ChWebsoftTaxulatorSharedSampleClass *sample = [ChWebsoftTaxulatorSharedSampleClass new];
+    
+    int value=[sample incrementWithInt:2];
+    
   NSLog(@"%d", value);
 }
 
