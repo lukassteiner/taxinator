@@ -1,0 +1,12 @@
+package ch.websoft.taxulator.shared.data;
+
+option java_outer_classname = "TaxrateListProtos";
+
+message Taxrate {
+    required double treshold = 1;
+    required double step = 2;
+}
+
+message TaxrateList {
+    repeated Taxrate taxrate = 1;
+}
